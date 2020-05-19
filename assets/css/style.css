@@ -8,6 +8,9 @@
     box-sizing: border-box;
     width: 100%;
 }
+a{
+    text-decoration: none;
+}
 /* Navbar Styling */
 .navbar {
     background: #fff;
@@ -68,3 +71,68 @@
 .lighter {
     color: #888;
 } 
+
+/*First Article*/
+
+.container{
+    padding-top: 40px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.container>p{
+    padding-bottom: 15px;
+    line-height: 1.7;
+    font-size: 1.125rem;
+    font-family: ImperialNYT;
+}
+.autor,.date {
+   float: left;
+   padding-bottom: 10px;
+}
+.article_info_icons  {
+    display: flex;
+    position: absolute;
+    right: 25%;
+    text-align: right;
+    
+    width: fit-content;
+}
+.article_info_icons >*{
+    padding: 10px 10px 0 10px;
+    border-radius: 50%;
+    background-color: #EEE;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.article_info_icons :nth-child(5),
+.article_info_icons :nth-child(6){
+    border-radius:none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.theory_codes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: 0 auto;
+   
+
+}
+.theory_codes_tittle{
+    width: 80%;
+    margin: 0 auto;
+}
+.theory_codes_img{
+    
+    padding: 15px;
+   
+}
+
+.Bold{
+    font-weight: bold;
+    
+}
