@@ -10,12 +10,12 @@
   font-family: ImperialNYT;
 }
 a {
-  text-decoration: none;
+  color: #326891;
 }
 /* Navbar Styling */
 .navbar {
   background: #fff;
-  padding: 15px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px #ccc solid;
@@ -24,20 +24,28 @@ a {
   display: flex;
   width: fit-content;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .icons > * {
   padding: 0 10px 0 10px;
+  width: max-content;
 }
 .logo {
   display: flex;
   justify-content: center;
-  width: 5%;
+  align-items: center;
+  width: 100%;
+}
+.logo > img {
+  width: 225px;
+  /* margin-left: 100px; */
 }
 .call_to_action {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: 30%;
 }
 .btn {
   border: none;
@@ -194,12 +202,30 @@ a {
 }
 /* Astronomy article*/
 .wrap {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  grid-column-gap: 20px;
 }
+
+.wrap > .astronomy {
+  width: 70%;
+  float: left;
+}
+.astronomy > h3, 
+.editors_pick > h3 {
+  border-bottom: 1px #ccc solid;
+  border-top: 1.5px #000000 solid;
+  line-height: 1.5;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.editors_pick > h3 {
+  margin-top: 10px;
+  
+}
+.wrap > .list-most_popular { 
+  width: 25%;
+  float: right;
+} 
 
 .images_grid {
   display: grid;
@@ -216,8 +242,7 @@ a {
     border-bottom: 1px #ccc solid;
     border-top: 1.5px #000000 solid;
     line-height: 1.5;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px 0;
 }
 .list-most_popular {
   display: flex;
@@ -225,15 +250,31 @@ a {
 }
 
 .side_navbar > li {
-  padding-bottom: 20px;
-  padding-top: 20;
+  padding: 20px 0;
   line-height: 1.5;
   list-style: none;
   border-bottom: 1px #ccc solid;
   cursor: pointer;
 }
 .side_navbar > li:hover {
-    color: #888;
-  }
+  color: #888;
+}
+
+.read_more_btn {
+  width: 40%;
+  float: left;
+  margin-bottom: 30px;
+}
+.article_bottom_icons {
+  width: 30%;
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.read_more {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
   
   
