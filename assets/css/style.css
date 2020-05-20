@@ -60,21 +60,26 @@ a{
 .article_title {
     width: 86%;
     margin: 0 auto;
-    font-size: 2.5rem;
+    padding: 40px 40px 0 ;
+    line-height: 2.25rem;
 }
 .article_title > h3 {
-    font-family: NYTCheltenham;
+    color: #121212;
+    font-family: NYTCheltenham,georgia,'times new roman',times,serif;
+    font-weight: 600;
     font-style: italic;
+    font-size: 2.5rem;
+    margin: 0 20px 1rem;
+    position: relative;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
 
-}
-.article_img > figcaption {
-    margin-right: 7px;
-    width: 75%;
-    color: #666;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .lighter {
     color: #888;
+    font-size: 12px;
 } 
 
 /*First Article*/
@@ -86,25 +91,48 @@ a{
     font-size: 14px;
 }
 
-.container>p{
+.container > p{
     padding-bottom: 15px;
     line-height: 1.7;
-    font-size: 1.125rem;
+    font-size: 20px;
     font-family: ImperialNYT;
+    color: #333;
 }
-.autor,.date {
+.container > .info {
+    
+    
+}
+.autor {
    float: left;
-   padding-bottom: 10px;
+   margin-bottom: 40px;
+}
+.autor {
+    font-size: 15px;
+    font-family: NYTCheltenham ,Georgia, 'Times New Roman', Times, serif;
+}
+.autor > a {
+    text-decoration: underline;
+    color: #121212;
+}
+.autor > a:hover {
+    text-decoration: none;
+}
+.more_details {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    clear: both;
 }
 .article_info_icons  {
     display: flex;
     position: absolute;
     right: 25%;
     text-align: right;
-    
     width: fit-content;
+    margin-top: -15px;
 }
-.article_info_icons >*{
+.article_info_icons > *{
     padding: 10px 10px 0 10px;
     border-radius: 50%;
     background-color: #EEE;
@@ -118,27 +146,53 @@ a{
     background-color: transparent;
     font-size: 20px;
 }
-
+.theory_codes,
+.theory_codes_tittle {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-style: normal;
+    font-family: NYTCheltenham, Georgia, 'Times New Roman', Times, serif;
+}
 .theory_codes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    width: 75%;
-    margin: 0 auto;
-   
+    grid-gap: 10px;   
+}
 
-}
-.theory_codes_tittle{
-    width: 80%;
-    margin: 0 auto;
-}
-.theory_codes_img{
-    
-    /* padding: 15px; */
-   
+.theory_codes_tittle > p {
+    color: #666;
 }
 
 .Bold{
     font-weight: bold;
     
+}
+/* Figcaption Style */
+.image_description {
+    margin-right: 7px;
+    width: 75%;
+    color: #666;
+    font-family: NYTCheltenham, Georgia, 'Times New Roman', Times, serif;
+}
+.full_width {
+    width: 100%;
+    padding-bottom: 40px;
+}
+.title {
+    font-size: 20px;
+    font-family: NYTCheltenham ,Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+}
+.darker {
+    color: #666;
+    font-size: 12px;
+}
+.darker > a {
+    color: #666;
+    text-decoration: underline;
+    padding: 5px;
+}
+.darker > a:hover {
+    text-decoration: none;
 }
