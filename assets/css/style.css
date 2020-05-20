@@ -192,6 +192,7 @@ a {
 .darker > a:hover {
   text-decoration: none;
 }
+/* Astronomy article*/
 .wrap {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -199,10 +200,24 @@ a {
   margin: 0 auto;
   grid-column-gap: 20px;
 }
+
 .images_grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+}
+.astronomy_spn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*side bar*/
+.tittle_sidebar{
+    border-bottom: 1px #ccc solid;
+    border-top: 1.5px #000000 solid;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .list-most_popular {
   display: flex;
@@ -211,7 +226,14 @@ a {
 
 .side_navbar > li {
   padding-bottom: 20px;
+  padding-top: 20;
   line-height: 1.5;
   list-style: none;
   border-bottom: 1px #ccc solid;
+  cursor: pointer;
 }
+.side_navbar > li:hover {
+    color: #888;
+  }
+  
+  
