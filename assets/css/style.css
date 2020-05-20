@@ -210,7 +210,7 @@ a {
   width: 70%;
   float: left;
 }
-.astronomy > h3, 
+.astronomy > h3,
 .editors_pick > h3 {
   border-bottom: 1px #ccc solid;
   border-top: 1.5px #000000 solid;
@@ -220,29 +220,28 @@ a {
 }
 .editors_pick > h3 {
   margin-top: 10px;
-  
 }
-.wrap > .list-most_popular { 
+.wrap > .list-most_popular {
   width: 25%;
   float: right;
-} 
+}
 
 .images_grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
-.astronomy_spn{
+.astronomy_spn {
   display: flex;
   justify-content: flex-end;
 }
 
 /*side bar*/
-.tittle_sidebar{
-    border-bottom: 1px #ccc solid;
-    border-top: 1.5px #000000 solid;
-    line-height: 1.5;
-    padding: 10px 0;
+.tittle_sidebar {
+  border-bottom: 1px #ccc solid;
+  border-top: 1.5px #000000 solid;
+  line-height: 1.5;
+  padding: 10px 0;
 }
 .list-most_popular {
   display: flex;
@@ -275,6 +274,49 @@ a {
   padding: 10px;
   margin-bottom: 15px;
 }
+/*BOTTOM LIST*/
+.bottom_list {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px 50px;
+}
+.bottom_tittle {
+  font-size: 14px;
+  font-family: ImperialNYT;
+  line-height: 25px;
+}
+.bottom_names > ul > li {
+  list-style-type: none;
+  font-size: 14px;
+  padding: 3px;
+}
+.bottom_names_last {
+  padding: 10px 15px;
+  border-left: 1px solid #ccc;
+}
+.small {
+  font-size: 12px;
+}
+.bottom_listmaintittle {
+  border-top: 3px double #ccc;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.list {
+  display: flex;
+}
 
-  
-  
+.footer_logo {
+  width: 225px;
+}
+.gohome {
+  width: 10%;
+  float: right;
+  font-size: 12px;
+}
+
+.gohome > a {
+  text-decoration: none;
+}
