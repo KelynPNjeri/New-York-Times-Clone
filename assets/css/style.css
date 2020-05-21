@@ -8,12 +8,19 @@
   box-sizing: border-box;
   width: 100%;
 }
+
 body {
-  font-family: ImperialNYT;
+  font-family: ImperialNYT, Arial, Helvetica, sans-serif;
 }
+
 a {
   color: #326891;
 }
+
+.inline {
+  display: inline;
+}
+
 /* Navbar Styling */
 .navbar {
   background: #fff;
@@ -22,6 +29,7 @@ a {
   justify-content: space-between;
   border-bottom: 1px #ccc solid;
 }
+
 .icons {
   display: flex;
   width: fit-content;
@@ -33,22 +41,27 @@ a {
   padding: 0 10px 0 10px;
   width: max-content;
 }
+
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
+
 .logo > img {
   width: 225px;
+
   /* margin-left: 100px; */
 }
+
 .call_to_action {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 30%;
 }
+
 .btn {
   border: none;
   width: fit-content;
@@ -60,19 +73,22 @@ a {
   font-size: 14px;
   font-weight: 700;
   border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ImperialNYT, Arial, Helvetica, sans-serif;
 }
+
 /* Article Description */
 .article_description {
   width: 80%;
   margin: 0 auto;
 }
+
 .article_title {
   width: 86%;
   margin: 0 auto;
   padding: 40px 40px 0;
   line-height: 2.25rem;
 }
+
 .article_title > h3 {
   color: #121212;
   font-family: NYTCheltenham, georgia, "times new roman", times, serif;
@@ -86,12 +102,13 @@ a {
   margin-left: 20px;
   margin-right: 20px;
 }
+
 .lighter {
   color: #888;
   font-size: 12px;
 }
 
-/*First Article*/
+/* First Article */
 
 .container {
   padding-top: 40px;
@@ -104,24 +121,36 @@ a {
   padding-bottom: 15px;
   line-height: 1.7;
   font-size: 20px;
-  font-family: ImperialNYT;
+  font-family: ImperialNYT, Arial, Helvetica, sans-serif;
   color: #333;
 }
-.autor {
-  float: left;
-  margin-bottom: 40px;
-}
+
 .autor {
   font-size: 15px;
   font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
+  float: left;
+  margin-bottom: 40px;
 }
+
+.gohome > a {
+  text-decoration: none;
+}
+
+.darker > a {
+  color: #666;
+  text-decoration: underline;
+  padding: 5px;
+}
+
 .autor > a {
   text-decoration: underline;
   color: #121212;
 }
+
 .autor > a:hover {
   text-decoration: none;
 }
+
 .more_details {
   display: flex;
   flex-flow: row nowrap;
@@ -129,6 +158,7 @@ a {
   padding-bottom: 25px;
   clear: both;
 }
+
 .article_info_icons {
   display: flex;
   position: absolute;
@@ -137,6 +167,7 @@ a {
   width: fit-content;
   margin-top: -15px;
 }
+
 .article_info_icons > *,
 .circled {
   padding: 10px 10px 0 10px;
@@ -153,6 +184,7 @@ a {
   background-color: transparent;
   font-size: 20px;
 }
+
 .theory_codes,
 .theory_codes_tittle {
   width: 75%;
@@ -161,6 +193,7 @@ a {
   font-style: normal;
   font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
 }
+
 .theory_codes {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -174,35 +207,41 @@ a {
 .Bold {
   font-weight: bold;
 }
+
 /* Figcaption Style */
 .image_description {
   margin-right: 7px;
   width: 75%;
   color: #666;
   font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
 }
+
+.pd-top {
+  padding-top: 40px;
+}
+
 .full_width {
   width: 100%;
   padding-bottom: 40px;
 }
+
 .title {
   font-size: 20px;
   font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
   padding: 20px 0;
 }
+
 .darker {
   color: #666;
   font-size: 12px;
 }
-.darker > a {
-  color: #666;
-  text-decoration: underline;
-  padding: 5px;
-}
+
 .darker > a:hover {
   text-decoration: none;
 }
-/* Astronomy article*/
+
+/* Astronomy article */
 .wrap {
   width: 90%;
   margin: 0 auto;
@@ -212,17 +251,25 @@ a {
   width: 70%;
   float: left;
 }
+
 .astronomy > h3,
 .editors_pick > h3 {
   border-bottom: 1px #ccc solid;
-  border-top: 1.5px #000000 solid;
+  border-top: 1.5px #000 solid;
   line-height: 1.5;
   padding: 10px 0;
   margin-bottom: 10px;
 }
+
 .editors_pick > h3 {
   margin-top: 10px;
 }
+
+.list-most_popular {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .wrap > .list-most_popular {
   width: 25%;
   float: right;
@@ -233,21 +280,20 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
+
 .astronomy_spn {
   display: flex;
   justify-content: flex-end;
 }
 
-/*side bar*/
+/* side bar */
 .tittle_sidebar {
   border-bottom: 1px #ccc solid;
-  border-top: 1.5px #000000 solid;
+  border-top: 1.5px #000 solid;
   line-height: 1.5;
   padding: 10px 0;
-}
-.list-most_popular {
-  display: flex;
-  flex-flow: column wrap;
+  font-weight: bold;
+  display: block;
 }
 
 .side_navbar > li {
@@ -257,6 +303,18 @@ a {
   border-bottom: 1px #ccc solid;
   cursor: pointer;
 }
+
+.bottom_names > ul > li {
+  list-style-type: none;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.bottom_names_last > ul > li {
+  font-size: 12px;
+  padding: 6px;
+}
+
 .side_navbar > li:hover {
   color: #888;
 }
@@ -266,53 +324,53 @@ a {
   float: left;
   margin-bottom: 30px;
 }
+
 .article_bottom_icons {
   width: 30%;
   float: right;
   display: flex;
   flex-flow: row nowrap;
 }
+
 .read_more {
   padding: 10px;
   margin-bottom: 15px;
 }
-/*BOTTOM LIST*/
+
+/* BOTTOM LIST */
 .bottom_list {
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
   padding: 10px 50px;
 }
+
 .bottom_tittle {
   font-size: 14px;
-  font-family: ImperialNYT;
+  font-family: ImperialNYT, Arial, Helvetica, sans-serif;
   line-height: 25px;
 }
-.bottom_names > ul > li {
-  list-style-type: none;
-  font-size: 14px;
-  padding: 3px;
-}
+
 .bottom_names_last {
   padding: 0 15px;
   border-left: 1px solid #ccc;
 }
+
 .border {
   border-bottom: 1px #ccc solid;
 }
-.bottom_names_last > ul > li {
-  font-size: 12px;
-  padding: 6px;
-}
+
 .small {
   font-size: 12px;
 }
+
 .bottom_listmaintittle {
   border-top: 3px double #ccc;
   display: flex;
   justify-content: space-between;
   width: 90%;
 }
+
 .list {
   display: flex;
 }
@@ -320,19 +378,18 @@ a {
 .footer_logo {
   width: 225px;
 }
+
 .gohome {
   width: 10%;
   float: right;
   font-size: 12px;
 }
 
-.gohome > a {
-  text-decoration: none;
-}
 .footer_icons {
   font-size: 16px;
   font-weight: bold;
 }
+
 /* FOOTER */
 .footer_items {
   display: flex;
@@ -345,7 +402,7 @@ a {
   margin-top: 10px;
   padding: 20px;
 }
+
 .footer_items > * {
   width: max-content;
 }
-
