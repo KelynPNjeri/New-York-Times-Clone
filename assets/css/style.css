@@ -7,6 +7,8 @@
   margin: 0;
   box-sizing: border-box;
   width: 100%;
+}
+body {
   font-family: ImperialNYT;
 }
 a {
@@ -105,8 +107,6 @@ a {
   font-family: ImperialNYT;
   color: #333;
 }
-.container > .info {
-}
 .autor {
   float: left;
   margin-bottom: 40px;
@@ -137,7 +137,8 @@ a {
   width: fit-content;
   margin-top: -15px;
 }
-.article_info_icons > * {
+.article_info_icons > *,
+.circled {
   padding: 10px 10px 0 10px;
   border-radius: 50%;
   background-color: #eee;
@@ -145,6 +146,7 @@ a {
   height: 40px;
   text-align: center;
 }
+
 .article_info_icons :nth-child(5),
 .article_info_icons :nth-child(6) {
   border-radius: none;
@@ -292,8 +294,15 @@ a {
   padding: 3px;
 }
 .bottom_names_last {
-  padding: 10px 15px;
+  padding: 0 15px;
   border-left: 1px solid #ccc;
+}
+.border {
+  border-bottom: 1px #ccc solid;
+}
+.bottom_names_last > ul > li {
+  font-size: 12px;
+  padding: 6px;
 }
 .small {
   font-size: 12px;
@@ -320,3 +329,23 @@ a {
 .gohome > a {
   text-decoration: none;
 }
+.footer_icons {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* FOOTER */
+.footer_items {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 95%;
+  border-top: 1px #ccc solid;
+  margin-top: 10px;
+  padding: 20px;
+}
+.footer_items > * {
+  width: max-content;
+}
+
