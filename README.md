@@ -39,11 +39,11 @@ To set up:
 - Twitter: [@KelynNjeri](https://twitter.com/KelynNjeri)
 - Linkedin: [Kelyn Njeri](https://linkedin.com/kelyn-paul)
 
-👤 **Author2**
+👤 **Mariana Atenais Campos**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@atenaiis](https://github.com/atenaiis)
+- Twitter: [@SopanoMarian](https://twitter.com/SopanoMarian)
+- Linkedin: [Mariana Atenai](https://www.linkedin.com/in/mariana-atenai-campos-garcia-a30791143/)
 
 ## 🤝 Contributing
 
