@@ -371,7 +371,9 @@ a {
   border-top: 3px double #ccc;
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
 }
 
 .list {
@@ -380,6 +382,7 @@ a {
 
 .footer_logo {
   width: 225px;
+  padding-left: -10px;
 }
 
 .gohome {
@@ -394,6 +397,10 @@ a {
 }
 
 /* FOOTER */
+footer {
+  margin-bottom: 4%;
+}
+
 .footer_items {
   display: flex;
   flex-flow: row nowrap;
