@@ -42,17 +42,15 @@ a {
   width: max-content;
 }
 
-.logo {
+.logo > a {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.logo > img {
+.logo > a > img {
   width: 225px;
-
-  /* margin-left: 100px; */
 }
 
 .call_to_action {
@@ -405,4 +403,27 @@ a {
 
 .footer_items > * {
   width: max-content;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 20px 10px;
+  border-top: 1px #000 solid;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+}
+.update {
+  text-align: center;
+}
+
+.update > p > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.side_icon {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
