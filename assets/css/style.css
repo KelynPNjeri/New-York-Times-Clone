@@ -145,6 +145,11 @@ a {
   color: #121212;
 }
 
+.update > p > a {
+  text-decoration: none;
+  color: #000;
+}
+
 .autor > a:hover {
   text-decoration: none;
 }
@@ -404,6 +409,7 @@ a {
 .footer_items > * {
   width: max-content;
 }
+
 .footer {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -413,13 +419,9 @@ a {
   bottom: 0;
   background-color: #fff;
 }
+
 .update {
   text-align: center;
-}
-
-.update > p > a {
-  text-decoration: none;
-  color: #000;
 }
 
 .side_icon {
