@@ -30,7 +30,6 @@ a {
   border-bottom: 1px #ccc solid;
 }
 
-
 .icons {
   display: flex;
   width: 25%;
@@ -42,17 +41,32 @@ a {
   padding: 0 10px 0 10px;
   width: max-content;
 }
-.icons>p>a{
-  color: #333;
-  text-decoration: none;
-
-}
 
 .logo > a {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.gohome > a {
+  text-decoration: none;
+}
+
+.darker > a {
+  color: #666;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+.autor > a {
+  text-decoration: underline;
+  color: #121212;
+}
+
+.icons > p > a {
+  color: #333;
+  text-decoration: none;
 }
 
 .logo > a > img {
@@ -136,24 +150,14 @@ a {
   margin-bottom: 40px;
 }
 
-.gohome > a {
-  text-decoration: none;
-}
-
-.darker > a {
-  color: #666;
-  text-decoration: underline;
-  padding: 5px;
-}
-
-.autor > a {
-  text-decoration: underline;
-  color: #121212;
-}
-
 .update > p > a {
   text-decoration: none;
   color: #000;
+}
+
+.bottom_names > ul > li > a {
+  color: #333;
+  text-decoration: none;
 }
 
 .autor > a:hover {
@@ -359,12 +363,8 @@ a {
   font-family: ImperialNYT, Arial, Helvetica, sans-serif;
   line-height: 25px;
 }
-.bottom_names>ul>li>a{
-  color: #333;
-  text-decoration: none;
-}
 
-.bottom_names>ul>li>a:hover{
+.bottom_names > ul > li > a:hover {
   text-decoration: underline;
 }
 
