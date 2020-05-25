@@ -30,9 +30,10 @@ a {
   border-bottom: 1px #ccc solid;
 }
 
+
 .icons {
   display: flex;
-  width: fit-content;
+  width: 25%;
   justify-content: flex-start;
   align-items: center;
 }
@@ -40,6 +41,11 @@ a {
 .icons > * {
   padding: 0 10px 0 10px;
   width: max-content;
+}
+.icons>p>a{
+  color: #333;
+  text-decoration: none;
+
 }
 
 .logo > a {
