@@ -359,6 +359,14 @@ a {
   font-family: ImperialNYT, Arial, Helvetica, sans-serif;
   line-height: 25px;
 }
+.bottom_names>ul>li>a{
+  color: #333;
+  text-decoration: none;
+}
+
+.bottom_names>ul>li>a:hover{
+  text-decoration: underline;
+}
 
 .bottom_names_last {
   padding: 0 15px;
