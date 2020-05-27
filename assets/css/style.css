@@ -1,0 +1,449 @@
+@import "fonts.css";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  font-family: ImperialNYT, Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #326891;
+}
+
+.inline {
+  display: inline;
+}
+
+.navbar {
+  background: #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #ccc solid;
+}
+
+.icons {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icons > * {
+  padding: 0 10px 0 10px;
+  width: max-content;
+}
+
+.logo > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.gohome > a {
+  text-decoration: none;
+}
+
+.darker > a {
+  color: #666;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+.autor > a {
+  text-decoration: underline;
+  color: #121212;
+}
+
+.icons > p > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.logo > a > img {
+  width: 225px;
+}
+
+.call_to_action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+}
+
+.btn {
+  border: none;
+  width: fit-content;
+  padding: 11px 12px 8px;
+  background-color: rgb(86, 123, 149);
+  border-color: rgb(50, 104, 145);
+  color: white;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  font-family: ImperialNYT, Arial, Helvetica, sans-serif;
+}
+
+.article_description {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.article_title {
+  width: 86%;
+  margin: 0 auto;
+  padding: 40px 40px 0;
+  line-height: 2.25rem;
+}
+
+.article_title > h3 {
+  color: #121212;
+  font-family: NYTCheltenham, georgia, "times new roman", times, serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2.5rem;
+  margin: 0 20px 1rem;
+  position: relative;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.lighter {
+  color: #888;
+  font-size: 12px;
+}
+
+.container {
+  padding-top: 40px;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.container > p {
+  padding-bottom: 15px;
+  line-height: 1.7;
+  font-size: 20px;
+  font-family: ImperialNYT, Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.autor {
+  font-size: 15px;
+  font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.update > p > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bottom_names > ul > li > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.autor > a:hover {
+  text-decoration: none;
+}
+
+.more_details {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  clear: both;
+}
+
+.article_info_icons {
+  display: flex;
+  position: absolute;
+  right: 25%;
+  text-align: right;
+  width: fit-content;
+  margin-top: -15px;
+}
+
+.article_info_icons > *,
+.circled {
+  padding: 10px 10px 0 10px;
+  border-radius: 50%;
+  background-color: #eee;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.article_info_icons :nth-child(5),
+.article_info_icons :nth-child(6) {
+  border-radius: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.theory_codes,
+.theory_codes_tittle {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-style: normal;
+  font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
+}
+
+.theory_codes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.theory_codes_tittle > p {
+  color: #666;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.image_description {
+  margin-right: 7px;
+  width: 75%;
+  color: #666;
+  font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.pd-top {
+  padding-top: 40px;
+}
+
+.full_width {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.title {
+  font-size: 20px;
+  font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
+  padding: 20px 0;
+}
+
+.darker {
+  color: #666;
+  font-size: 12px;
+}
+
+.darker > a:hover {
+  text-decoration: none;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrap > .astronomy {
+  width: 70%;
+  float: left;
+}
+
+.astronomy > h3,
+.editors_pick > h3 {
+  border-bottom: 1px #ccc solid;
+  border-top: 1.5px #000 solid;
+  line-height: 1.5;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.editors_pick > h3 {
+  margin-top: 10px;
+}
+
+.list-most_popular {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.wrap > .list-most_popular {
+  width: 25%;
+  float: right;
+}
+
+.images_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.astronomy_spn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tittle_sidebar {
+  border-bottom: 1px #ccc solid;
+  border-top: 1.5px #000 solid;
+  line-height: 1.5;
+  padding: 10px 0;
+  font-weight: bold;
+  display: block;
+}
+
+.side_navbar > li {
+  padding: 20px 0;
+  line-height: 1.5;
+  list-style: none;
+  border-bottom: 1px #ccc solid;
+  cursor: pointer;
+}
+
+.bottom_names > ul > li {
+  list-style-type: none;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.bottom_names_last > ul > li {
+  font-size: 12px;
+  padding: 6px;
+}
+
+.side_navbar > li:hover {
+  color: #888;
+}
+
+.read_more_btn {
+  width: 40%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.article_bottom_icons {
+  width: 30%;
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.read_more {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.bottom_list {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px 50px;
+}
+
+.bottom_tittle {
+  font-size: 14px;
+  font-family: ImperialNYT, Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+
+.bottom_names > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.bottom_names_last {
+  padding: 0 15px;
+  border-left: 1px solid #ccc;
+}
+
+.border {
+  border-bottom: 1px #ccc solid;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.bottom_listmaintittle {
+  border-top: 3px double #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.list {
+  display: flex;
+}
+
+.footer_logo {
+  width: 225px;
+  padding-left: -10px;
+}
+
+.gohome {
+  width: 10%;
+  float: right;
+  font-size: 12px;
+}
+
+.footer_icons {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#footer {
+  margin-bottom: 4%;
+}
+
+.footer_items {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 95%;
+  border-top: 1px #ccc solid;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.footer_items > * {
+  width: max-content;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 20px 10px;
+  border-top: 1px #000 solid;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.update {
+  text-align: center;
+}
+
+.side_icon {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-weight: bold;
+  width: 25%;
+}
+
+.side_icon > p {
+  padding: 0 10px;
+}
